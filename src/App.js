@@ -7,7 +7,7 @@ function App() {
 
   const [data, setData] = useState('');
   const [width, setWidth] = useState(268);
-  const [height, setHeight] = useState(128);
+  const [height, setHeight] = useState(268);
   const [format, setFormat] = useState('png');
   const [qrColor, setQRColor] = useState('#000000');
   const [bgColor, setBGColor] = useState('#FFFFFF');
@@ -78,7 +78,7 @@ function App() {
           <div className="mb-3">
             <label className="form-label">Width:</label>
             <input
-              type="number"
+              type="text"
               className="form-control"
               value={width}
               onChange={(e) => setWidth(e.target.value)}
@@ -87,7 +87,7 @@ function App() {
           <div className="mb-3">
             <label className="form-label">Height:</label>
             <input
-              type="number"
+              type="text"
               className="form-control"
               value={height}
               onChange={(e) => setHeight(e.target.value)}

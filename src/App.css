@@ -50,8 +50,15 @@
 }
 
 @media (max-width: 768px) {
-  /* Apply a margin to the top of the QR code */
   .qrcode {
-    margin-top: 20px; /* Adjust the margin value as needed */
+    margin-top: 20px;
   }
+}
+
+label {
+  font-weight: bolder;
+}
+
+h1 {
+  color: rgb(24, 172, 56);
 }
